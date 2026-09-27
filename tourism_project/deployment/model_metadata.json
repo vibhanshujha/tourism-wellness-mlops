@@ -1,0 +1,42 @@
+{
+  "model": "XGBClassifier (sklearn pipeline with scaling + one-hot encoding)",
+  "classification_threshold": 0.5,
+  "best_params": {
+    "colsample_bytree": 0.7,
+    "learning_rate": 0.1,
+    "max_depth": 7,
+    "n_estimators": 200,
+    "subsample": 1.0
+  },
+  "best_cv_f1": 0.7809,
+  "test_metrics": {
+    "accuracy": 0.9402,
+    "precision": 0.8639,
+    "recall": 0.8194,
+    "f1": 0.8411,
+    "roc_auc": 0.9606
+  },
+  "numeric_features": [
+    "Age",
+    "CityTier",
+    "DurationOfPitch",
+    "NumberOfPersonVisiting",
+    "NumberOfFollowups",
+    "PreferredPropertyStar",
+    "NumberOfTrips",
+    "Passport",
+    "PitchSatisfactionScore",
+    "OwnCar",
+    "NumberOfChildrenVisiting",
+    "MonthlyIncome"
+  ],
+  "categorical_features": [
+    "TypeofContact",
+    "Occupation",
+    "Gender",
+    "ProductPitched",
+    "MaritalStatus",
+    "Designation"
+  ],
+  "mlflow_run_id": "1931cddd63c84bbc8cf5d4cb0d8f8ce2"
+}
