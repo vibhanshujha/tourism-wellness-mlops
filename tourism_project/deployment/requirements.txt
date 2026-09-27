@@ -1,0 +1,8 @@
+# Deployment dependencies for Streamlit Community Cloud (Python 3.11).
+# Versions match the training environment so the saved model loads cleanly.
+streamlit==1.45.1
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.6.1
+xgboost==2.1.4
+joblib==1.5.3
