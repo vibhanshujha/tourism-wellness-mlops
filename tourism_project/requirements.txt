@@ -1,0 +1,7 @@
+# Pipeline dependencies used by the GitHub Actions workflow (Python 3.11)
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.6.1
+xgboost==2.1.4
+mlflow==3.0.1
+joblib==1.5.3
